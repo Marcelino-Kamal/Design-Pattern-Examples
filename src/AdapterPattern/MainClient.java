@@ -9,7 +9,12 @@ To simplify how it works:
 * */
 public class MainClient {
     public static void main(String[] args) {
-        iTarget target=new Adapter(new Adaptee());
-        target.request();
+        USPlugIn US = new USPlugIn();
+
+        EuropeWallPlugin adp = new Adapter(US);
+
+        adp.request();
+
+        
     }
 }

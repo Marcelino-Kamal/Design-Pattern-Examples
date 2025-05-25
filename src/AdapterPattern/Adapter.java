@@ -1,9 +1,9 @@
 package AdapterPattern;
 
-public class Adapter implements iTarget{
+public class Adapter implements EuropeWallPlugin{
 
-    private Adaptee a;
-    public Adapter(Adaptee a){
+    private USPlugIn a;
+    public Adapter(USPlugIn a){
         this.a=a;
     }
 

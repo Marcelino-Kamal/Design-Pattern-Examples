@@ -1,5 +1,5 @@
 package AdapterPattern;
 
-public interface iTarget {
+public interface EuropeWallPlugin {
     void request();
 }
