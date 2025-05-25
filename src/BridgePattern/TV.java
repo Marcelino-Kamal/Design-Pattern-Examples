@@ -6,7 +6,7 @@ public class TV implements Device {
 
     @Override
     public void turnOn() {
-        // TODO Auto-generated method stub
+        
        System.out.println("Tv is On");
        on =true;
     }
